@@ -44,7 +44,8 @@ Bob have the code '16 16' and he need to look this table and find the 16:
 |   8   |    I   |
 |  pad  |    =   |
 
---- You will find online 👍
+---
+> You will find online 👍
 
 Bob knows that 16 is 'Q' and the code '16 16' is QQ, but he need to put the pad character, because he increments zeros.
 
