@@ -11,15 +11,15 @@ namespace Base64{
 		'z','0','1','2','3','4','5','6','7','8','9','+','/'
 	};
 
-	string binary {};
-	string result {};
-
-	int bin_size {};
-	int txt_size {};
-	int pad {};
-		
+	// Encode your string UwU
 	string encode(string text){
 		
+	  int bin_size {};
+	  int txt_size {};
+  	int pad {};
+	  string binary {};
+	  string result {};
+	  
 		txt_size = text.size();
 		
 		// str to bin
@@ -50,7 +50,14 @@ namespace Base64{
 		return result;
 	}
 	
+	// Decode your string o_o
 	string decode(string text){
+		
+		int bin_size {};
+	  int txt_size {};
+  	int pad {};
+	  string binary {};
+	  string result {};
 		
 		txt_size = text.size();
 		
