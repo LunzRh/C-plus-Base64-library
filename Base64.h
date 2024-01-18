@@ -14,11 +14,11 @@ namespace Base64{
 	// Encode your string UwU
 	string encode(string text){
 		
-	  int bin_size {};
-	  int txt_size {};
-  	int pad {};
-	  string binary {};
-	  string result {};
+		int bin_size {};
+		int txt_size {};
+	  	int pad {};
+		string binary {};
+		string result {};
 	  
 		txt_size = text.size();
 		
@@ -49,15 +49,15 @@ namespace Base64{
 		
 		return result;
 	}
-	
+
 	// Decode your string o_o
 	string decode(string text){
 		
 		int bin_size {};
-	  int txt_size {};
-  	int pad {};
-	  string binary {};
-	  string result {};
+	  	int txt_size {};
+  		int pad {};
+	  	string binary {};
+	  	string result {};
 		
 		txt_size = text.size();
 		
